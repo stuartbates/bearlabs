@@ -27,7 +27,7 @@ twitter_username: stuartbates
 github_username:  stuartbates
 
 # Build settings
-theme: cayman
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
