@@ -1,0 +1,10 @@
+<article>
+  <header>
+    <h2 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h2>
+    <small style="margin: -1rem 0 2.5rem; display: block;">{{ page.date | date_to_string }} - {{ page.author }}</small>
+  </header>
+
+  <main role="main">
+    {{ content }}
+  </main>
+</article>
