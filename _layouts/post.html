@@ -1,7 +1,12 @@
 <article>
   <header>
     <h2 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h2>
-    <small style="margin: -1rem 0 2.5rem; display: block;">{{ page.date | date_to_string }} - {{ page.author }}</small>
+    <small>{{ page.date | date_to_string }} - {{ page.author }}</small>
+    <small>Stage: {{ page.stage }}</small>
+    <small>Market: {{ page.market }}</small>
+    <small>Job: {{ page.job }}</small>
+    <small>Value prop: {{ page.valueprop }}</small>
+    <small>Solution: {{ page.solution }}</small>
   </header>
 
   <main role="main">

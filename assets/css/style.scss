@@ -1,0 +1,49 @@
+---
+---
+
+@import "{{ site.theme }}";
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.project-tagline {
+  margin-bottom: 0;
+}
+
+article {
+  border-bottom: solid 1px #eff0f1;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+
+  header {
+    h2.project-name {
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+
+    small {
+      display: block;
+      opacity: 0.75;
+      margin-bottom: 0.25rem;
+
+      &:first-of-type {
+        font-weight: bold;
+      }
+
+      &:last-child {
+        margin-bottom: 2.5rem;
+      }
+    }
+  }
+}
+
+img + em {
+  display: block;
+  font-size: 0.75rem;
+  opacity: 0.75;
+  margin-bottom: 3rem;
+}
+
+li {
+  margin-bottom: 0.75rem;
+}

@@ -4,6 +4,11 @@ title:  "New approach"
 date:   2020-05-04 15:25:15 +0100
 categories: sprint-summary
 author: Rob Calvert
+stage: Finding a problem worth solving
+market: Various
+job: Various
+valueprop: ???
+solution: ???
 ---
 This post is the first in a series, where we'll post ever two weeks to chart our progress.
 
